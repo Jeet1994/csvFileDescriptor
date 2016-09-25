@@ -35,7 +35,7 @@ If you search for the package in the *Packages* pane in RStudio, you must see th
 
 ---
 
-**Author/Creator**
+**Author/Creator:**
 Pragyaditya Das.
 
 ---
