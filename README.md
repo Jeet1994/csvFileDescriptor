@@ -1,4 +1,4 @@
-##My second R package.
+##An R package for describing a given csv file.
 ---
 #####*This package aims at solving the problems people face with the preliminary data study on R.*
 ---
