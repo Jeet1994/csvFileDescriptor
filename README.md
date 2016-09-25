@@ -34,3 +34,10 @@ If you search for the package in the *Packages* pane in RStudio, you must see th
 ![ScreenShot](http://i.imgur.com/8f2QJUy.png )
 
 ---
+
+**Author/Creator**
+Pragyaditya Das.
+
+---
+
+THIS IS MY **INDIVIDUAL** WORK. 
