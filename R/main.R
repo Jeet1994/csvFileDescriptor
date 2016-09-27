@@ -2,7 +2,7 @@
 #'
 #' This function allows you to do preliminary investigation of the dataset in csv format.
 #' @param Do you love data? Defaults to TRUE
-#' @keywords csv, data, head, tail, summary, dimension
+#' @keywords csv, data, head, tail, summary, dimension and structure
 #' @export
 #' @examples no examples
 #' CSVDescriptor("/path/to/file/file.csv")
@@ -10,19 +10,29 @@
 CSVDescriptor <- function(.csv) {
   csv <- read.csv(.csv)
   dimValue <- dim(csv)
-  print("The structure of the dataset is:")
+  print("The dimension of the dataset is:")
+  print(dimValue)
+  #@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
   #strValue <- str(csv)
   #Problem with structure printing.
   #Beautify the output
-  print("The dimension of the dataset is:")
+  #@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  strValue <- utils:::capture.output(str(csv))
+  print("The structure of the dataset is:")
+  print(strValue)
+  #@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
   headValue <- head(csv)
   print("The head of the dataset is:") # or print(headValue) if you prefer
+  print(headValue)
+  #@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
   tailValue <- tail(csv)
   print("The tail of the dataset is:")
+  print(tailValue)
+  #@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
   summaryValue <- summary(csv)
   print("The summary of the dataset is:")
-  # or print(headValue) if you prefer
-  return(list(dimValue, headValue, tailValue,summaryValue, str(csv)))
-  #Ignore the warning and NULL messages.
+  print(summaryValue)
+  #@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  return(invisible(list(dimValue, strValue, headValue, tailValue,summaryValue)))
 }
 
