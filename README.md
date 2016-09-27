@@ -7,12 +7,17 @@
 This package gives the head, tail, dimension and summary of the dataset; it can also generate a report in text format.
 ---
 **How to install it?**
+
 1. Install devtools.
+
 2. Install the package from github.
+
 3. Change the working directory to the one in which you have the dataset in **CSV** format.
+
 4. Run `CSVDescriptor("filename.csv")`
 ---
 **Steps:**
+
 1. To install devtools: `install.packages("devtools")`
 
 2. Load library with : `library(devtools)`
