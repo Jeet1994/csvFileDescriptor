@@ -10,6 +10,10 @@
 CSVDescriptor <- function(.csv) {
   csv <- read.csv(.csv)
   dimValue <- dim(csv)
+  print("The structure of the dataset is:")
+  #strValue <- str(csv)
+  #Problem with structure printing.
+  #Beautify the output
   print("The dimension of the dataset is:")
   headValue <- head(csv)
   print("The head of the dataset is:") # or print(headValue) if you prefer
@@ -18,5 +22,7 @@ CSVDescriptor <- function(.csv) {
   summaryValue <- summary(csv)
   print("The summary of the dataset is:")
   # or print(headValue) if you prefer
-  return(list(dimValue,headValue, tailValue,summaryValue))
+  return(list(dimValue, headValue, tailValue,summaryValue, str(csv)))
+  #Ignore the warning and NULL messages.
 }
+
