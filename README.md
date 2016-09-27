@@ -8,6 +8,7 @@
 This package gives the head, tail, dimension and summary of the dataset.
 ---
 **How to install it?**
+
 1. Install devtools.
 
 2. Install the package from github.
@@ -17,6 +18,7 @@ This package gives the head, tail, dimension and summary of the dataset.
 4. Run `CSVDescriptor("filename.csv")`
 ---
 **Steps:**
+
 1. To install devtools: `install.packages("devtools")`
 
 2. Load library with : `library(devtools)`
