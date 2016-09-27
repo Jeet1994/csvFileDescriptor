@@ -16,13 +16,15 @@ This package gives the head, tail, dimension and summary of the dataset.
 **Steps:**
 1. To install devtools: `install.packages("devtools")`
 
-2. To get package: `install_github("Jeet1994/csvFileDescriptor")`
+2. Load library with : `library(devtools)`
 
-3. Load package : `library(csvFileDescriptor)`
+3. To get package: `install_github("Jeet1994/csvFileDescriptor")`
 
-4. Restart Rstudio after the installation is over.
+4. Load package : `library(csvFileDescriptor)`
 
-5. Set the working directory to the folder which contains the **dataset.csv**
+5. Restart Rstudio after the installation is over.
+
+6. Set the working directory to the folder which contains the **dataset.csv**
 file : `setwd("path/to/file/dataset.csv")`
 
 6. Test the package : `CSVDescriptor("dataset.csv")`
