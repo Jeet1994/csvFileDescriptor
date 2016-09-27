@@ -1,4 +1,4 @@
-##My second R package.
+##An R package for describing a given csv file.
 ---
 #####*This package aims at solving the problems people face with the preliminary data study on R.*
 ---
@@ -34,3 +34,10 @@ If you search for the package in the *Packages* pane in RStudio, you must see th
 ![ScreenShot](http://i.imgur.com/8f2QJUy.png )
 
 ---
+
+**Author/Creator:**
+Pragyaditya Das.
+
+---
+
+THIS IS MY **INDIVIDUAL** WORK. 
