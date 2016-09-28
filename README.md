@@ -1,11 +1,16 @@
 ##An R package for describing a given csv file.
+
 ---
+
 #####*This package aims at solving the problems people face with the preliminary data study on R.*
+
 ---
 
 **What does the package do?**
 This package gives the head, tail, dimension and summary of the dataset; it can also generate a report in text format.
+
 ---
+
 **How to install it?**
 
 1. Install devtools.
@@ -18,6 +23,7 @@ This package gives the head, tail, dimension and summary of the dataset; it can 
 
 
 ---
+
 **Steps:**
 
 1. To install devtools: `install.packages("devtools")`
@@ -72,9 +78,9 @@ This is my **individual** work.
 1. The package was made and tested on Windows 8 - 64 bit system.
 
 2. There was a lot of help from the internet, particularly Stackoverflow and rbloggers.
+
 ---
----
----
+
 Licenses:
 
 ####MIT LICENSE
