@@ -15,6 +15,8 @@ This package gives the head, tail, dimension and summary of the dataset; it can 
 3. Change the working directory to the one in which you have the dataset in **CSV** format.
 
 4. Run `CSVDescriptor("filename.csv")`
+
+
 ---
 **Steps:**
 
@@ -31,11 +33,26 @@ This package gives the head, tail, dimension and summary of the dataset; it can 
 6. Set the working directory to the folder which contains the **dataset.csv**
 file : `setwd("path/to/file/dataset.csv")`
 
-6. Test the package : `CSVDescriptor("dataset.csv")` this will describe the function in the Rstudio console.
+7. Test the package : `CSVDescriptor("dataset.csv")` this will describe the function in the Rstudio console.
 
-7. To store the data report in a text file : `GenerateReport("dataset.csv")` this will generate a text file that will contain all the information about the dataset.
+8. To store the data report in a text file : `GenTxtReport("dataset.csv")` this will generate a text file that will contain all the information about the dataset. 
+This text file will be stored in the same directory as the **dataset.csv** file and will be named as **Report.txt**. 
+
+9. To get a PDF report do : `GenPdfReport(""). The pdf report will be stored in same directory as the **Report.txt**,
+and will be named as **Report.pdf**.
 
 ---
+
+**Dependancies:**
+
+1. roxygen2.
+
+2. devtools.
+
+3. pandoc. 
+
+4. rmarkdown.
+
 
 **Screenshots**
 If you search for the package in the *Packages* pane in RStudio, you must see this
@@ -47,6 +64,13 @@ If you search for the package in the *Packages* pane in RStudio, you must see th
 Pragyaditya Das.
 
 This is my **individual** work.
+
+
+###NOTE:
+
+1. The package was made and tested on Windows 8 - 64 bit system.
+
+2. There was a lot of help from the internet, particularly Stackoverflow and rbloggers.
 ---
 ---
 ---
