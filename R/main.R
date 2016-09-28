@@ -2,7 +2,7 @@
 #'
 #' This function allows you to do preliminary investigation of the dataset in csv format.
 #' @param Do you love data? Defaults to TRUE
-#' @keywords csv, data, head, tail, summary, dimension and structure
+#' @keywords csv, data, head, tail, summary, dimension, structure, text report, pdf report.
 #' @export
 #' @examples no examples
 #' CSVDescriptor("/path/to/file/file.csv")
