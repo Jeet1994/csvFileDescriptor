@@ -53,6 +53,7 @@ and will be named as **Report.pdf**.
 
 4. rmarkdown.
 
+---
 
 **Screenshots**
 If you search for the package in the *Packages* pane in RStudio, you must see this
