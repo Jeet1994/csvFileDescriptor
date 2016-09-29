@@ -14,7 +14,9 @@ This function allows you to do preliminary investigation of the dataset in csv f
 }
 \examples{
 no examples
-CSVDescriptor("/path/to/file/file.csv")
+DescribeCSV("/path/to/file/file.csv")
+GenTxtReport("/path/to/file/file.csv")
+GenPdfReport("/path/to/file/Report.txt")
 }
 \keyword{csv,}
 \keyword{data,}
